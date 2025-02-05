@@ -1,0 +1,134 @@
+.header {
+  padding-top: 7px;
+  padding-left: 100px;
+  text-align: ;
+  background: white;
+  font-size: 15px;
+  color: black;
+  font-style: italic;
+  font-family: Times New Roman;
+  font-style: italic;
+  margin: 1px;
+  padding-right: 15px;
+}
+body {
+	margin: 0px;
+	background: #c0c0c0;
+	line-height: 0.3;
+}
+.button {
+  margin: 0;
+  text-align: ;
+  background: white;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  text-align: right;
+}
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Times New Roman;
+  font-weight: Bold;
+  border-radius: 25px;
+}
+h2 {
+	text-align: center;
+	color: white;
+	font-family: Times New Roman;
+	font-style: Italic;
+}
+a:hover, a:active {
+  background-color: #f0f0f0;
+}
+.effective {
+	background-color: #194a7a;
+	padding: 10px;
+	font-size: 25px;
+	font-family: Times New Roman;
+	color: white;
+	line-height: 0.3;
+	padding-left: 150px;
+}
+.logo {
+	width: 0%;
+  padding-left: 20px;
+  float: left;
+  margin-top: 1px;
+}
+.mission1 {
+  background-color: ;
+  width: 1px;
+  height: 2px;
+  font-size: 20px;
+  border:;
+  padding: 1px;
+  margin: 11px;
+  line-height: 1.0;
+  text-align: justify;
+  float: letf;
+  display: inline-block;
+}
+.mission {
+  background-color: ;
+  width: 700px;
+  height: 170px;
+  font-size: 20px;
+  font-family: Times New Roman;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  line-height: 1.0;
+  text-align: justify;
+  float: left;
+  display: inline-block;
+}
+
+.vision {
+  background-color: ;
+  width: 700px;
+  height: 170px;
+  font-family: Times New Roman;
+  font-size: 20px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  line-height: 1.0;
+  text-align: justify;
+  float: right;
+  display: inline-block;
+}
+
+.button1 {
+  background-color: white ;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  line-height: 0.9;
+}
+
+input {
+  width: 30%;
+  margin: auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #296EB4;
+  outline: 2px solid white;
+   border-radius: 10px;
+}
+pre {
+	font-family: Times New Roman;
+	font-size: 25px;
+}
