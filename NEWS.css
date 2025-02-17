@@ -1,0 +1,79 @@
+.header {
+  padding-top: 0.5px;
+  padding-left: 100px;
+  text-align: center ;
+  background: white;
+  font-size: 15px;
+  color: black;
+  font-style:Bold;
+  font-family: Times New Roman;
+  margin: 0px;
+  padding-right: 20px;
+  padding-bottom: 0.5px;
+}
+body {
+	margin: 0px;
+	background: #c0c0c0;
+	line-height: 0.3;
+	padding-top: 0px;
+	
+}
+.effective {
+	background-color: #194a7a;
+	padding: 10px;
+	font-size: 25px;
+	font-family: Times New Roman;
+	color: white;
+	line-height: 0.1;
+	
+}
+.logo {
+	width: 0%;
+  float: left;
+  margin-top: 3px;
+  padding-left: 15px;
+}
+.pre1 {
+	font-weight: Bold;
+	font-size: 35px;
+	padding-left: 420px;
+}
+.pre2 {
+	font-weight: Bold;
+	padding-left: 420px;
+	font-family: Times New Roman;
+	font-size: 24px;
+}
+.pre3 {
+	font-weight: normal;
+	padding-left: 420px;
+	font-family:Times New Roman;
+	font-size: 24px;
+	line-height: 1.1;
+	text-align: justify;	
+	padding-right: 455px;
+	padding-bottom: 0px;
+}
+.pre4 {
+	font-weight: normal;
+	padding-left: 15px;
+	font-family:Times New Roman;
+	font-size: 24px;
+	line-height: 1.1;
+	text-align: justify;	
+	padding-right: 455px;
+	
+}
+.img1{
+	margin: 50px;
+float:right;
+padding-right:50px;
+
+}
+.img2{
+float:right;
+padding-right:2px;
+padding-top:210px;
+padding-left:px;
+}
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BACDM</title>
+    <link rel="stylesheet" href="OJTN.css">
+</head>
+<body>
+    <header class="header1">
+        <h1>BANANA AND CACAO DISEASE MANAGEMENT</h1>
+        <div class="button1">
+            <a href="staff.html">Staff</a>
+            <a href="">Resources</a>
+            <a href="">Publication</a>
+            <a href="">Contact</a>
+            <a href="home.html">Home</a>
+            <a href="">About</a>
+            <a href="bacadmnews.html">News</a>
+            <a href="OJT.html">OJT</a>
+			<a href="bacadmtry.html">Project</a>
+        </div>
+    </header>
+
+<br>
+    <!-- Header -->
+    <div class="header">OJT Records Management</div>
+
+    <button class="create-button" onclick="openModal()">OJT Record</button>
+
+    <!-- Modal Form -->
+    <div id="createModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>OJT Record</h2>
+            <form id="ojtForm">
+                <select id="ojtLocation" required>
+                    <option value="" disabled selected>Select Location</option>
+                    <option value="Cabanatuan">Cabanatuan</option>
+                    <option value="San Jose">San Jose</option>
+                    <option value="Guimba">Guimba</option>
+                    <option value="Talavera">Talavera</option>
+                    <option value="Muñoz">Muñoz</option>
+                </select>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Image -->
+    <div class="image-container">
+        <img src="CLSU.png" alt="CLSU Logo">
+    </div>
+
+    <script>
+        // Open Modal
+        function openModal() {
+            document.getElementById("createModal").style.display = "block";
+        }
+
+        // Close Modal
+        function closeModal() {
+            document.getElementById("createModal").style.display = "none";
+        }
+
+        // Handle Form Submission
+        document.getElementById("ojtForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            
+            let location = document.getElementById("ojtLocation").value;
+
+            if (location) {
+                alert("OJT Record: " + location);
+                closeModal();
+            } else {
+                alert("Please select a location.");
+            }
+        });
+    </script>
+
+</body>
+</html>
